@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecomerce </title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Ecommerce</h1>
+
+        <div class="container-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+            </svg>
+
+            <!-- carrito agregando -->
+            <div class="count-products">
+                <span id="contador-productos">0</span>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="cart-product">
+                    <div class="info-cart-product">
+                        <span class="cantidad-producto-carrito">1</span>
+                        <p class="titulo-producto-carrito">Audifonos Areabi</p>
+                        <span class="precio-producto-carrito">$ 100</span>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="icon-close">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$ 225</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-items">
+        <div class="items">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1606400082777-ef05f3c5cde2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="audifonos inalambricos areabi">
+            </figure>
+
+            <div class="info-producto">
+                <h2>Audifonos Areabi</h2>
+                <p class="precio">$ 100</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="items">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1640901822223-6e7eb50347b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="audifonos inalambricos jbl">
+            </figure>
+
+            <div class="info-producto">
+                <h2>Audifonos Jbl</h2>
+                <p class="precio">$ 125</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="items">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1568263860073-e1f269422cae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="audifonos inalambricos Jbl">
+            </figure>
+
+            <div class="info-producto">
+                <h2>Audifonos Jbl</h2>
+                <p class="precio">$ 120</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="items">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1612858250434-b5358e2b3625?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="audifonos inalambricos sony">
+            </figure>
+
+            <div class="info-producto">
+                <h2>Audifonos Sony</h2>
+                <p class="precio">$ 300</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+
+        <div class="items">
+            <figure>
+                <img src="https://images.unsplash.com/photo-1722929517020-69d5530e8c92?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="audifonos inalambricos ears">
+            </figure>
+
+            <div class="info-producto">
+                <h2>Audifonos Ears</h2>
+                <p class="precio">$ 320</p>
+                <button>Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
 </body>
+
 </html>
